@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Cricket Champion! 🏏</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="confetti-container" id="confetti-container"></div>
+    
+    <div class="main-container">
+        <header class="birthday-header">
+            <div class="cricket-field-bg"></div>
+            <h1 class="main-title">
+                <span class="cricket-emoji">🏏</span>
+                Happy Birthday
+                <span class="heart-emoji">💖</span>
+            </h1>
+            <h2 class="subtitle">To My Cricket Champion!</h2>
+        </header>
+
+        <section class="message-section">
+            <div class="cricket-ball-container">
+                <div class="cricket-ball" id="cricket-ball">
+                    <div class="ball-seam"></div>
+                </div>
+            </div>
+            
+            <div class="love-message">
+                <p class="main-message">
+                    Just like how you hit every ball with precision and passion,
+                    you've hit my heart with your love! 💕
+                </p>
+                <p class="secondary-message">
+                    You're not just a champion on the field,
+                    but the champion of my heart every single day! 🏆
+                </p>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <div class="cricket-stats-card">
+                <h3>Birthday Stats 📊</h3>
+                <div class="stat-item">
+                    <span class="stat-label">Years of Awesomeness:</span>
+                    <span class="stat-value" id="age-counter">Loading...</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Love Score:</span>
+                    <span class="stat-value">∞ (Infinite)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Happiness Level:</span>
+                    <span class="stat-value">Maximum! 📈</span>
+                </div>
+            </div>
+
+            <div class="birthday-wishes-container">
+                <h3>Special Birthday Wishes 🎂</h3>
+                <div class="wishes-carousel" id="wishes-carousel">
+                    <div class="wish-card active">
+                        <p>"May your birthday be as spectacular as your cover drives! 🏏✨"</p>
+                    </div>
+                    <div class="wish-card">
+                        <p>"Here's to another year of hitting life's challenges for a six! 🎯"</p>
+                    </div>
+                    <div class="wish-card">
+                        <p>"You bowl me over with your love every single day! 💕"</p>
+                    </div>
+                    <div class="wish-card">
+                        <p>"May this new year bring you centuries of happiness and love! 💯"</p>
+                    </div>
+                    <div class="wish-card">
+                        <p>"You're the captain of my heart and the MVP of my life! 👑"</p>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prev-btn">⬅️</button>
+                    <button class="carousel-btn" id="next-btn">➡️</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-buttons">
+            <button class="party-btn" id="confetti-btn">🎉 Celebrate!</button>
+            <button class="party-btn" id="music-btn">🎵 Party Music</button>
+            <button class="party-btn" id="surprise-btn">🎁 Special Surprise</button>
+        </section>
+
+        <section class="birthday-cake-section">
+            <div class="cake-container">
+                <div class="birthday-cake" id="birthday-cake">
+                    <div class="cake-base"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-top"></div>
+                    <div class="candle" id="candle1">
+                        <div class="flame" id="flame1"></div>
+                    </div>
+                    <div class="candle" id="candle2">
+                        <div class="flame" id="flame2"></div>
+                    </div>
+                    <div class="candle" id="candle3">
+                        <div class="flame" id="flame3"></div>
+                    </div>
+                </div>
+                <p class="cake-message">Click the cake to make a wish! 🕯️</p>
+            </div>
+        </section>
+
+        <footer class="birthday-footer">
+            <div class="cricket-stumps">
+                <div class="stump"></div>
+                <div class="stump"></div>
+                <div class="stump"></div>
+                <div class="bail"></div>
+                <div class="bail"></div>
+            </div>
+            <p class="footer-message">
+                With all my love and best wishes for your special day! 💖
+                <br>
+                <em>You're my forever teammate in this game of life! 🏏❤️</em>
+            </p>
+        </footer>
+    </div>
+
+    <div class="surprise-modal" id="surprise-modal">
+        <div class="modal-content">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <h2>🎁 Special Birthday Surprise! 🎁</h2>
+            <div class="surprise-content">
+                <div class="trophy">🏆</div>
+                <p>You've won the "Best Partner Ever" trophy!</p>
+                <p>This award comes with:</p>
+                <ul>
+                    <li>Unlimited hugs and kisses 💕</li>
+                    <li>A lifetime of love and support 🤗</li>
+                    <li>Your favorite birthday dinner 🍽️</li>
+                    <li>And many more surprises to come! 🎉</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
